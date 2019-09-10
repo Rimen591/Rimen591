@@ -1,6 +1,5 @@
 #head{
     background-image: url("../img/rx7_fd.png");
-    background: no-repeat;
     background-color: #0f074d;
     background-size: 100%;
     padding-top: 15rem;
@@ -19,7 +18,7 @@ hr{
     border-color: #241985;
 }
 #head2{
-    background-color: pink;
+    background-color: #0f074d;
     background-size: 100%;
     padding-top: 5rem;
 }
