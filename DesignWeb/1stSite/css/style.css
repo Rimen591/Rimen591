@@ -1,5 +1,6 @@
 #head{
-    background-image: url("../img/rx7_fd.png") ;
+    background-image: url("../img/rx7_fd.png");
+    background-repeat: no-repeat;
     background-color: #0f074d;
     background-size: 100%;
     padding-top: 15rem;
