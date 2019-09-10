@@ -1,0 +1,29 @@
+#head{
+    background-image: url("../img/rx7_fd.png") ;
+    background-color: #0f074d;
+    background-size: 100%;
+    padding-top: 15rem;
+}
+hr{
+    padding-top:10px;
+    border-width: 3px;
+    border-color: white;
+    max-width: 21rem;
+}
+#hr1{
+    border-color: black;
+}
+.btn{
+    background: #1f1572;
+    border-color: #241985;
+}
+#head2{
+    background-color: #0f074d;
+    background-size: 100%;
+    padding-top: 5rem;
+}
+#content{
+    background-color: white;
+    background-size: 100%;
+    padding-top: 15rem;
+}
