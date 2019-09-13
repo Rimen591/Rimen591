@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfa87e27-e4d0-4b6d-b2ef-43c5e3af91ff" name="Default Changelist" comment="" />
+    <list default="true" id="de6090d0-1b0a-41d6-af08-8a44d37d9303" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1QQYgaQEmn8z6HQwYbRys9hTYNh" />
+  <component name="ProjectId" id="1QjrxvYUdbu0Qy5ZiqSxhBghuv3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -32,12 +32,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Tatol\PhpstormProjects\HelloBootStrapWorld\bootstrap-4.3.1-dist\js" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,25 +50,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cfa87e27-e4d0-4b6d-b2ef-43c5e3af91ff" name="Default Changelist" comment="" />
-      <created>1567704398690</created>
+      <changelist id="de6090d0-1b0a-41d6-af08-8a44d37d9303" name="Default Changelist" comment="" />
+      <created>1568295096672</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567704398690</updated>
-      <workItem from="1567704399905" duration="5653000" />
-      <workItem from="1567720408032" duration="886000" />
-      <workItem from="1567789398512" duration="1854000" />
-      <workItem from="1567791647458" duration="4698000" />
-      <workItem from="1567895014318" duration="265000" />
-      <workItem from="1568031281528" duration="30000" />
-      <workItem from="1568140249743" duration="1735000" />
-      <workItem from="1568221663117" duration="449000" />
-      <workItem from="1568290963604" duration="4107000" />
-      <workItem from="1568295721460" duration="1436000" />
-      <workItem from="1568308561219" duration="43000" />
-      <workItem from="1568344307656" duration="714000" />
-      <workItem from="1568394973726" duration="19000" />
-      <workItem from="1568395840720" duration="3674000" />
+      <updated>1568295096672</updated>
+      <workItem from="1568295097831" duration="869000" />
+      <workItem from="1568296233028" duration="318000" />
     </task>
     <servers />
   </component>
