@@ -15,6 +15,11 @@ hr{
     border-color: black;
     max-width: 24rem;
 }
+.hr2{
+    border-color: black;
+    width: 16rem;
+    margin-left: 4rem;
+}
 .btn{
     background: #1f1572;
     border-color: #241985;
@@ -37,5 +42,5 @@ hr{
 
 #h2{
     padding-left: 9vh;
-    text-decoration: underline;
+
 }
