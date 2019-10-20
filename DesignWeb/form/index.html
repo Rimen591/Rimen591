@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h2 class="pt-4 pb-2">Les formulaires verticaux</h2>
+    <form>
+        <div class="form-group">
+            <label for="nom">Entrez votre nom :</label>
+            <input type="text" class="form-control" id="nom" placeholder="Nom">
+        </div>
+
+        <div class="form-group">
+            <label for="prenom">Entrez votre prénom :</label>
+            <input type="text" class="form-control" id="prenom" placeholder="Prénom">
+        </div>
+
+        <label for="aide">Sujet de la demande d’aide</label>
+        <select class="form-control" id="aide">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>Bootstrap</option>
+            <option>js</option>
+        </select>
+
+        <div class="form-group py-2">
+            <label for="question">Quelle est votre question ? :</label>
+            <input type="text" class="form-control" id="question" placeholder="Question">
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Urgent
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Important
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+            <label class="form-check-label" for="exampleRadios3">
+                Peut attendre
+            </label>
+        </div>
+        <button type="reset" class="btn-dark my-2 py-1 px-2">Reset</button>
+    </form>
+    <form action="FormulaireEnvoye.html">
+        <input type="submit" value="Envoyer"/>
+    </form>
+</div>
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Initial D</title>
+    <link rel="icon" type="image/png" href="img/D.png"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar1">
+        <a class="navbar-brand" href="#"><img src="img/Initial_D.png" width="100px"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="akina.html">Akina Speedstars</a>
+                <a class="nav-item nav-link" href="akagi.html">Akagi Redsuns</a>
+                <button type="button" class="btn btn-danger text-dark" data-toggle="modal" data-target=".bd-example-modal-lg">Battles</button>
+            </div>
+        </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ul>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="gif" src="img/Battle1.gif" alt="bateau de pirates">
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="img/Slide_2.jpg" alt="Big Hero 6">
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="img/Slide_1.jpg" alt="Arbre">
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="jumbotron">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="display-4">Incoming battles</h1>
+                                <hr class="my-4">
+                            </div>
+                        </div>
+                        <div class="row pb-5">
+                            <div class="offset-1 col-xl-4">
+                                <img src="https://pre00.deviantart.net/fff6/th/pre/f/2013/138/c/0/initial_d___akagi_red_suns_logo_by_cruzerblade1029-d65npdh.png" class="img-fluid" width="150px" alt="">
+                            </div>
+                            <div class="col-xl-3">
+                                <h3>VS</h3>
+                            </div>
+                            <div class="col-xl-3">
+                                <img src="http://go2id.net/images/logo_emperor.gif" class="img-fluid" width="150px" alt="">
+                            </div>
+                        </div>
+                        <div class="row pb-5"></div>
+
+                        <p class="lead">
+                            <a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

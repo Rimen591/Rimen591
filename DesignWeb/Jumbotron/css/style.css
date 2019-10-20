@@ -1,0 +1,32 @@
+.navbar1{
+    background-color: rgb(76, 75, 75);
+}
+.content{
+    background-color: rgb(76, 75, 75);
+    height: auto;
+}
+#hrAkina1 {
+    margin-bottom:20px;
+    margin-top:10px;
+    margin-left: 0px;
+    width: 17.5vw;
+    border-width: 3px;
+    border-color: #f4f8ff;
+}
+#hrAkina2 {
+    margin-bottom:20px;
+    margin-top:10px;
+    margin-left: 0px;
+    width: 10.5vw;
+    border-width: 3px;
+    border-color: #f4f8ff;
+}
+
+.profile{
+    height: 230px;
+    width: 230px;
+}
+
+.gif{
+    min-width: 100%;
+}

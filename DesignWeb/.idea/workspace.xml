@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14617db4-fd43-4508-adde-7a358442e047" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1RS1zvqPmSvJaADrByq5B22vqkO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Projet HTML" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tatol\Documents\GitHub\Rimen591\DesignWeb\Projet HTML" />
+      <recent name="C:\Users\Tatol\Documents\GitHub\Rimen591\DesignWeb" />
+      <recent name="C:\Users\Tatol\Documents\GitHub\Rimen591\DesignWeb\form" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14617db4-fd43-4508-adde-7a358442e047" name="Default Changelist" comment="" />
+      <created>1569645948605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569645948605</updated>
+      <workItem from="1569645949793" duration="1400000" />
+      <workItem from="1569845420443" duration="450000" />
+      <workItem from="1569950281567" duration="5619000" />
+      <workItem from="1570106069444" duration="4250000" />
+      <workItem from="1570209594897" duration="2480000" />
+      <workItem from="1570555240838" duration="5661000" />
+      <workItem from="1570640955687" duration="260000" />
+      <workItem from="1570709198143" duration="6586000" />
+      <workItem from="1570813755807" duration="5763000" />
+      <workItem from="1570926976861" duration="1000" />
+      <workItem from="1570982393106" duration="20000" />
+      <workItem from="1571067681561" duration="875000" />
+      <workItem from="1571076812570" duration="2805000" />
+      <workItem from="1571083967947" duration="60000" />
+      <workItem from="1571168369319" duration="4891000" />
+      <workItem from="1571330967524" duration="5941000" />
+      <workItem from="1571415101600" duration="457000" />
+      <workItem from="1571415656417" duration="55000" />
+      <workItem from="1571427714158" duration="11557000" />
+      <workItem from="1571455663924" duration="687000" />
+      <workItem from="1571581704501" duration="527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

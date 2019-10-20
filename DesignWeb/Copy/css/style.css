@@ -1,0 +1,84 @@
+html,body{
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/battle1.gif");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("../img/touge.gif");
+
+    /* Full height */
+    height: 100%;
+    width: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    /* The image used */
+    background-image: url("../img/Takumi.jpg");
+
+    /* Full height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 {
+    /* The image used */
+    background-image: url("../img/Slide_2.jpg");
+
+    /* Full height */
+    height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-red{
+    background-color: rgba(200,60,60,.6);
+    font-family: Impact;
+}
+.bgdark{
+    background-color: rgba(20,20,20,.3);
+}
+.bg-l{
+    background-color: rgba(190,190,190,.7);
+}
+h1{
+    font-family: Impact;
+    font-size: 4rem;
+}
+.h1-1{
+    font-family: Segoe UI;
+    font-size: 3rem;
+}
+.undertext{
+    font-family: Segoe UI;
+    font-size: 0.8rem;
+}
+.overtext{
+    font-family: Segoe UI;
+    font-size: 1rem;
+}
