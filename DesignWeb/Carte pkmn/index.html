@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<section class="container-fluid">
+    <div class="row">
+        <form class="col-8 offset-2">
+            <div class="form-group">
+                <label for="Name">Enter the name of the pokemon</label>
+                <input type="text" class="form-control" id="Name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="HP">Enter the hp of the pokemon</label>
+                <input type="text" class="form-control" id="HP" placeholder="HP">
+            </div>
+            <div class="form-group">
+                <label for="Type">Type of the pokemon</label>
+                <select id="Type" class="form-control">
+                    <option value="normal" selected>Normal</option>
+                    <option value="fire" selected>Fire</option>
+                    <option value="water" selected>Water</option>
+                    <option value="Electric" selected>Electric</option>
+                    <option value="Grass" selected>Grass</option>
+                    <option value="Psychic" selected>Psychic</option>
+                    <option value="Metal" selected>Metal</option>
+                    <option value="Fighting" selected>Fighting</option>
+                    <option value="Fairy" selected>Fairy</option>
+                    <option value="Dragon" selected>Dragon</option>
+                    <option value="Dark" selected>Dark</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="image">Choose the pokemon's image</label>
+                <input type="file" class="form-control-file" id="image">
+            </div>
+            <div class="form-group">
+                <label for="attribute">Enter the attribute of the pokemon</label>
+                <input type="text" class="form-control" id="attribute" placeholder="attribute">
+            </div>
+            <div class="form-group">
+                <label for="length">Enter the length of the pokemon</label>
+                <input type="text" class="form-control" id="length" placeholder="length">
+            </div>
+            <div class="form-group">
+                <label for="weight">Enter the weight of the pokemon</label>
+                <input type="text" class="form-control" id="weight" placeholder="weight">
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="form-group">
+                            <label for="attack1">Enter the attack of the pokemon</label>
+                            <input type="text" class="form-control" id="attack1" placeholder="attack">
+                        </div>
+                        <div class="form-group">
+                            <label for="attackpw1">Enter the power of attack of the pokemon</label>
+                            <input type="text" class="form-control" id="attackpw1" placeholder="power">
+                        </div>
+                        <div class="form-group">
+                            <label for="attackdesc1">Enter the attack description of the pokemon</label>
+                            <input type="text" class="form-control" id="attackdesc1" placeholder="description">
+                        </div>
+                    </div>
+                    <div class="col-4 offset-1">
+                        <div class="form-group">
+                            <label for="attack2">Enter the second attack of the pokemon</label>
+                            <input type="text" class="form-control" id="attack2" placeholder="attack">
+                        </div>
+                        <div class="form-group">
+                            <label for="attackpw2">Enter the power of attack of the pokemon</label>
+                            <input type="text" class="form-control" id="attackpw2" placeholder="power">
+                        </div>
+                        <div class="form-group">
+                            <label for="attackdesc2">Enter the attack description of the pokemon</label>
+                            <input type="text" class="form-control" id="attackdesc2" placeholder="description">
+                        </div>
+                    </div>
+                    <div class="col-3 offset-1">
+                        <div class="form-group">
+                            <label for="attack3">Enter the third attack of the pokemon</label>
+                            <input type="text" class="form-control" id="attack3" placeholder="attack">
+                        </div>
+                        <div class="form-group">
+                            <label for="attackpw3">Enter the power of attack of the pokemon</label>
+                            <input type="text" class="form-control" id="attackpw3" placeholder="power">
+                        </div>
+                        <div class="form-group">
+                            <label for="attackdesc3">Enter the attack description of the pokemon</label>
+                            <input type="text" class="form-control" id="attackdesc3" placeholder="description">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="weakness">Weakness of the pokemon</label>
+                <select id="weakness" class="form-control">
+                    <option value="normal" selected>Normal</option>
+                    <option value="fire" selected>Fire</option>
+                    <option value="water" selected>Water</option>
+                    <option value="Electric" selected>Electric</option>
+                    <option value="Grass" selected>Grass</option>
+                    <option value="Psychic" selected>Psychic</option>
+                    <option value="Metal" selected>Metal</option>
+                    <option value="Fighting" selected>Fighting</option>
+                    <option value="Fairy" selected>Fairy</option>
+                    <option value="Dragon" selected>Dragon</option>
+                    <option value="Dark" selected>Dark</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="resistance">resistance of the pokemon</label>
+                <select id="resistance" class="form-control">
+                    <option value="normal" selected>Normal</option>
+                    <option value="fire" selected>Fire</option>
+                    <option value="water" selected>Water</option>
+                    <option value="Electric" selected>Electric</option>
+                    <option value="Grass" selected>Grass</option>
+                    <option value="Psychic" selected>Psychic</option>
+                    <option value="Metal" selected>Metal</option>
+                    <option value="Fighting" selected>Fighting</option>
+                    <option value="Fairy" selected>Fairy</option>
+                    <option value="Dragon" selected>Dragon</option>
+                    <option value="Dark" selected>Dark</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="retraitCost">retrait cost of the pokemon</label>
+                <select id="retraitCost" class="form-control">
+                    <option value="1" selected>1</option>
+                    <option value="2" selected>2</option>
+                    <option value="3" selected>3</option>
+                </select>
+            </div>
+
+            <!-- weakness,resistance,retraitCost,description -->
+        </form>
+    </div>
+</section>
+
+</body>
+</html>

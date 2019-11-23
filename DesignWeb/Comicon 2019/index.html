@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<section class="container my-5 pb-5">
+    <div class="row">
+        <h1 class="col-10 offset-1 py-5">Formulaire de participation pour le Comicon 2019</h1>
+    </div>
+    <div class="row">
+        <form class="col-10 offset-1">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" class="form-control" id="Name" placeholder="Name">
+                <small class="form-text" id="nameMatch"></small>
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Password">
+                <small class="form-text" id="pwdStrength"></small>
+            </div>
+            <div class="form-group">
+                <label for="ConfirmerMdp">Confirm Password</label>
+                <input type="password" class="form-control" id="ConfirmerMdp" placeholder="Confirm Password">
+                <small class="form-text text-muted" id="pwdMatch">Passwords do not match</small>
+            </div>
+            <div class="form-group">
+                <label for="Email">Email address</label>
+                <input type="text" class="form-control" id="Email" placeholder="Enter email">
+            </div>
+                    <!-- Radio buttons -->
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios1" value="option1">
+                <label class="form-check-label" for="Radios1">
+                    Star Wars
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios2" value="option2">
+                <label class="form-check-label" for="Radios2">
+                    Marvel
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios3" value="option3">
+                <label class="form-check-label" for="Radios3">
+                    DC
+                </label>
+            </div>
+        </form>
+        <div id="hiddenelem1" class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="" class="img-fluid" alt="">
+                </div>
+                <form class="col-8">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Select</label>
+                        <select multiple class="form-control" id="exampleFormControlSelect1">
+                            <option value=1>Yoda</option>
+                            <option value=2>Obiwan</option>
+                            <option>Darth Vader</option>
+                            <option>Luke Skywalker</option>
+                            <option>Jar Jar Binks</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="hiddenelem2" class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://www.sideshow.com/storage/product-images/903735/spider-man-advanced-suit_marvel_silo.png" class="img-fluid" alt="">
+                </div>
+                <form class="col-8">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">Select</label>
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <option>Spiderman</option>
+                            <option>Thor</option>
+                            <option>Hulk</option>
+                            <option>Iron Man</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="hiddenelem3" class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/8/87/Batman_DC_Comics.png" class="img-fluid" alt="">
+                </div>
+                <form class="col-8">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect3">Select</label>
+                        <select multiple class="form-control" id="exampleFormControlSelect3">
+                            <option>Batman</option>
+                            <option>Superman</option>
+                            <option>Flash</option>
+                            <option>Arrow</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <form class="col-1 offset-1">
+            <button type="submit" class="btn btn-primary my-4" id="submit" disabled>Submit</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>

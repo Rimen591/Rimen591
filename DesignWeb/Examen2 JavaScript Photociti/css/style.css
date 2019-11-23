@@ -1,0 +1,19 @@
+#imgs {
+    padding: 50px;
+}
+
+#img {
+    border: 3px solid #837f83;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+@media print {
+    #noprint {
+        visibility: hidden;
+    }
+}

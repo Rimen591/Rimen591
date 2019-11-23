@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal" id="modalbtn">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel">Choisissez l'image</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div id="Carousel" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#Carousel" data-slide-to="1"></li>
+                            <li data-target="#Carousel" data-slide-to="2"></li>
+                            <li data-target="#Carousel" data-slide-to="3"></li>
+                            <li data-target="#Carousel" data-slide-to="4"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img alt="1" src="img/Letters/A/A1.jpg" class="img-fluid" id="carouselimg1">
+                            </div>
+                            <div class="carousel-item 2">
+                                <img alt="2" src="img/Letters/A/A2.jpg" class="img-fluid" id="carouselimg2">
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="3" src="img/Letters/A/A3.jpg" class="img-fluid" id="carouselimg3">
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="4" src="img/Letters/A/A4.jpg" class="img-fluid" id="carouselimg4">
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="5" src="img/Letters/A/A5.jpg" class="img-fluid" id="carouselimg5">
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#Carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#Carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="container-fluid" id="noprint">
+    <form class="row py-5">
+        <div class="form-group col-7 offset-2">
+            <label for="Word">Entrez un mot compris entre 3 et 12 lettres</label>
+            <input type="text" class="form-control" id="Word" placeholder="Mot">
+        </div>
+        <button type="button" class="btn btn-dark mt-3 mb-4 py-3" id="btn">GO</button>
+        <div class="form-group col-1 offset-2">
+            <label for="Type">Fond</label>
+            <select id="Type" class="form-control">
+                <option value="white" selected>Blanc</option>
+                <option value="blue" selected>Bleu</option>
+                <option value="darkBlue" selected>Bleu foncé</option>
+                <option value="grey" selected>Gris</option>
+                <option value="black" selected>Noir</option>
+                <option value="pink" selected>Rose</option>
+                <option value="red" selected>Rouge</option>
+            </select>
+        </div>
+        <h1 class="col-1 pt-4 pl-0">Mot</h1>
+    </form>
+</section>
+<section class="container-fluid">
+    <div class="row">
+        <div class="container">
+            <div class="row" id="imgs">
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+.boxgosse {
+    background-size: cover;
+}
+.box1 {
+    background-image: url("../img/rx7.jpg");
+    background-color: #4c4b4b;
+    padding: 25px;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0 0 10px grey);
+}
+.box3 {
+    background-image: url("../img/supra.jpg");
+    background-color: #4c4b4b;
+    padding: 25px;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0 0 10px grey);
+}
+.box2 {
+    background-image: url("../img/NSX.jpg");
+    background-color: #4c4b4b;
+    padding: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0 0 10px grey);
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 3.75rem;
+}
+
+h2 {
+    opacity: 0.8;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), -2px -2px 5px rgba(0, 0, 0, 0.7), -2px 2px 5px rgba(0, 0, 0, 0.7), 2px -2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.plus {
+    font-size: 25px;
+    margin: 25px  0 25px;
+}
+
+.text1{
+    transition: visibility 1s;
+}
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #008CBA;
+}
+
+.boxgosse:hover .overlay {
+    opacity: 1;
+    z-index: 999;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
