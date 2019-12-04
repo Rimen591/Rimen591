@@ -1,0 +1,48 @@
+/* Coolors Exported Palette - coolors.co/1c0f13-f93e34-ff693f-9d76a0-fbfbfb */
+
+/* RGB */
+$color1: rgba(55, 50, 50, 1);
+$color2: rgba(255, 60, 50, 1);
+$color3: rgba(255, 105, 63, 1);
+$color4: rgba(157, 118, 160, 1);
+$color5: rgba(251, 251, 251, 1);
+
+/* Fonts */
+
+$font1: Helvetica;
+$font2: Calibri Light;
+
+#\#commande-nav {
+  background-color: $color5;
+}
+#\#artistes-nav {
+  background-color: $color2;
+}
+#\#Marchandise-nav {
+  background-color: $color3;
+}
+#\#index-nav {
+  background-color: $color4;
+}
+#\#informations-nav {
+  background-color: $color1;
+}
+.dropdown-menu {
+  background-color: $color1;
+}
+.dropdown-item {
+  color: $color5;
+}
+.nav-item{
+  font: 1.5rem $font2;
+}
+.navbar-brand {
+  font: 2rem $font1;
+}
+.carousel-img {
+  min-width: 100%;
+  max-width: 100%;
+}
+nav {
+  min-width: 100%;
+}

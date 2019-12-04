@@ -1,0 +1,49 @@
+/* Coolors Exported Palette - coolors.co/1c0f13-f93e34-ff693f-9d76a0-fbfbfb */
+/* RGB */
+/* Fonts */
+#\#commande-nav {
+  background-color: #fbfbfb;
+}
+
+#\#artistes-nav {
+  background-color: #ff3c32;
+}
+
+#\#Marchandise-nav {
+  background-color: #ff693f;
+}
+
+#\#index-nav {
+  background-color: #9d76a0;
+}
+
+#\#informations-nav {
+  background-color: #373232;
+}
+
+.dropdown-menu {
+  background-color: #373232;
+}
+
+.dropdown-item {
+  color: #fbfbfb;
+}
+
+.nav-item {
+  font: 1.5rem Calibri Light;
+}
+
+.navbar-brand {
+  font: 2rem Helvetica;
+}
+
+.carousel-img {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+nav {
+  min-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

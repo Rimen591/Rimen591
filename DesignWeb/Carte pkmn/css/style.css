@@ -1,2 +1,76 @@
+.card {
+    background-image: url("../img/Templates/Basic - Colourless.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    border-width: 0;
+}
 
-
+#pokemon-name {
+    padding-top: 16px;
+    padding-left: 105px;
+    font-family: "Gill Sans MT";
+    font-weight: bold;
+    font-size: 20pt;
+    position: absolute;
+}
+#pokemon-hp {
+    padding-top: 17px;
+    padding-left: 316px;
+    font-family: "Gill Sans MT";
+    font-weight: bolder;
+    font-size: 21pt;
+    position: absolute;
+}
+#hpcard {
+    padding-top: 35px;
+    padding-left: 302px;
+    font-family: "Gill Sans MT Condensed";
+    font-weight: bold;
+    font-size: 11pt;
+    position: absolute;
+}
+#pokemon-attribute {
+    padding-top: 291px;
+    padding-left: 114px;
+    font-family: "Gill Sans MT";
+    font-style: italic;
+    font-size: 7.5pt;
+    position: absolute;
+}
+#pokemon-length {
+    padding-top: 291px;
+    padding-left: 192px;
+    font-family: "Gill Sans MT";
+    font-style: italic;
+    font-size: 7.5pt;
+    position: absolute;
+}
+#pokemon-weigth {
+    padding-top: 291px;
+    padding-left: 245px;
+    font-family: "Gill Sans MT";
+    font-style: italic;
+    font-size: 7.5pt;
+    position: absolute;
+}
+#pokemon-attack1 {
+    padding-top: 320px;
+    padding-left: 120px;
+    font-family: "Gill Sans MT";
+    font-weight: bold;
+    font-size: 20pt;
+    position: absolute;
+}
+#attack1pow1 {
+    padding-top: 315px;
+    padding-left: 50px;
+    position: absolute;
+}
+#pokemon-power1{
+    padding-top: 322px;
+    padding-left: 330px;
+    font-family: "Gill Sans MT";
+    font-weight: bold;
+    font-size: 20pt;
+    position: absolute;
+}
