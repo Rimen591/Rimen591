@@ -5,11 +5,7 @@
 /* Cell */
 @media only screen and (min-width: 1px) and (max-width: 480px) {
   .nav-item {
-    font: 5rem Calibri Light;
-  }
-
-  h1 {
-    color: red;
+    font: 3.5rem Calibri Light;
   }
 
   a img {
@@ -17,27 +13,9 @@
   }
 }
 /* Tablette */
-@media screen and (min-width: 481px) and (max-width: 890px) {
+@media screen and (min-width: 481px) and (max-width: 980px) {
   .nav-item {
-    font: 3.5rem Calibri Light;
-  }
-
-  h1 {
-    color: blue;
-  }
-
-  a img {
-    width: 4.5rem;
-  }
-}
-/* Desktop */
-@media screen and (min-width: 891px) {
-  .nav-item {
-    font: 1.5rem Calibri Light;
-  }
-
-  h1 {
-    color: green;
+    font: 2.5rem Calibri Light;
   }
 
   a img {
@@ -79,6 +57,18 @@
 
 nav {
   min-width: 100%;
+}
+
+.nav-item {
+  font: 1.5rem Calibri Light;
+}
+
+a img {
+  width: 4.5rem;
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

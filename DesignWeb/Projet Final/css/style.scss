@@ -1,5 +1,7 @@
 /* Coolors Exported Palette - coolors.co/1c0f13-f93e34-ff693f-9d76a0-fbfbfb */
 
+
+
 /* RGB */
 $color1: rgba(55, 50, 50, 1);
 $color2: rgba(255, 60, 50, 1);
@@ -18,10 +20,7 @@ $font2: Calibri Light;
 
 @media only screen and (min-width: 1px) and (max-width: 480px){
   .nav-item{
-    font: 5rem $font2;
-  }
-  h1 {
-    color: red;
+    font: 3.5rem $font2;
   }
   a img {
     width: 4.5rem;
@@ -30,33 +29,14 @@ $font2: Calibri Light;
 
 /* Tablette */
 
-@media screen and (min-width: 481px) and (max-width: 890px) {
+@media screen and (min-width: 481px) and (max-width: 980px) {
   .nav-item{
-    font: 3.5rem $font2;
-  }
-  h1 {
-    color: blue;
+    font: 2.5rem $font2;
   }
   a img {
     width: 4.5rem;
   }
 }
-
-/* Desktop */
-
-@media screen and (min-width: 891px) {
-  .nav-item{
-    font: 1.5rem $font2;
-  }
-  h1 {
-    color: green;
-  }
-  a img {
-    width: 4.5rem;
-  }
-
-}
-
 
 
 
@@ -82,6 +62,7 @@ $font2: Calibri Light;
 .dropdown-item {
   color: $color5;
 }
+
 .carousel-img {
   min-width: 100%;
   max-width: 100%;
@@ -90,3 +71,12 @@ nav {
   min-width: 100%;
 }
 
+.nav-item{
+  font: 1.5rem $font2;
+}
+a img {
+  width: 4.5rem;
+}
+.navbar-toggler {
+  border: none;
+}
