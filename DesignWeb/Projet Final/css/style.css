@@ -5,7 +5,7 @@
 /* Cell */
 @media only screen and (min-width: 1px) and (max-width: 480px) {
   .nav-item {
-    font: 3.5rem Calibri Light;
+    font: 2rem Calibri Light;
   }
 
   a img {
@@ -15,7 +15,7 @@
 /* Tablette */
 @media screen and (min-width: 481px) and (max-width: 980px) {
   .nav-item {
-    font: 2.5rem Calibri Light;
+    font: 2rem Calibri Light;
   }
 
   a img {

@@ -20,7 +20,7 @@ $font2: Calibri Light;
 
 @media only screen and (min-width: 1px) and (max-width: 480px){
   .nav-item{
-    font: 3.5rem $font2;
+    font: 2rem $font2;
   }
   a img {
     width: 4.5rem;
@@ -31,7 +31,7 @@ $font2: Calibri Light;
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
   .nav-item{
-    font: 2.5rem $font2;
+    font: 2rem $font2;
   }
   a img {
     width: 4.5rem;
