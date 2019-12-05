@@ -1,6 +1,49 @@
 /* Coolors Exported Palette - coolors.co/1c0f13-f93e34-ff693f-9d76a0-fbfbfb */
 /* RGB */
 /* Fonts */
+/* media queries */
+/* Cell */
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+  .nav-item {
+    font: 5rem Calibri Light;
+  }
+
+  h1 {
+    color: red;
+  }
+
+  a img {
+    width: 4.5rem;
+  }
+}
+/* Tablette */
+@media screen and (min-width: 481px) and (max-width: 890px) {
+  .nav-item {
+    font: 3.5rem Calibri Light;
+  }
+
+  h1 {
+    color: blue;
+  }
+
+  a img {
+    width: 4.5rem;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 891px) {
+  .nav-item {
+    font: 1.5rem Calibri Light;
+  }
+
+  h1 {
+    color: green;
+  }
+
+  a img {
+    width: 4.5rem;
+  }
+}
 #\#commande-nav {
   background-color: #fbfbfb;
 }
@@ -27,14 +70,6 @@
 
 .dropdown-item {
   color: #fbfbfb;
-}
-
-.nav-item {
-  font: 1.5rem Calibri Light;
-}
-
-.navbar-brand {
-  font: 2rem Helvetica;
 }
 
 .carousel-img {
