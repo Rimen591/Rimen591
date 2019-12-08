@@ -5,7 +5,7 @@
 /* Cell */
 @media only screen and (min-width: 1px) and (max-width: 480px) {
   .nav-item {
-    font: 2rem Calibri Light;
+    font: 2rem "Tomorrow", sans-serif;
   }
 
   a img {
@@ -15,7 +15,7 @@
 /* Tablette */
 @media screen and (min-width: 481px) and (max-width: 980px) {
   .nav-item {
-    font: 2rem Calibri Light;
+    font: 2rem "Tomorrow", sans-serif;
   }
 
   a img {
@@ -31,11 +31,11 @@
 }
 
 #\#Marchandise-nav {
-  background-color: #ff693f;
+  background-color: #373232;
 }
 
 #\#index-nav {
-  background-color: #9d76a0;
+  background-color: #fbfbfb;
 }
 
 #\#informations-nav {
@@ -60,7 +60,11 @@ nav {
 }
 
 .nav-item {
-  font: 1.5rem Calibri Light;
+  font: 1.5rem "VT323", monospace;
+}
+
+h2 {
+  font: "Ubuntu", sans-serif;
 }
 
 a img {
@@ -69,6 +73,172 @@ a img {
 
 .navbar-toggler {
   border: none;
+}
+
+.font-racing {
+  font-family: "Racing Sans One", cursive;
+}
+
+.font-VT23 {
+  font-family: "Tomorrow", sans-serif;
+  font-size: 1.1rem;
+}
+
+#color-picker-purple {
+  background-color: #b483c5;
+  color: #b483c5;
+  border: none;
+  border-radius: 10px;
+}
+
+#color-picker-orange {
+  background-color: #f1b342;
+  color: #f1b342;
+  border: none;
+  border-radius: 10px;
+}
+
+#color-picker-pink {
+  background-color: #d36aaf;
+  color: #d36aaf;
+  border: none;
+  border-radius: 10px;
+}
+
+#color-picker-purple:focus {
+  background-color: #b483c5;
+  color: #b483c5;
+  border: none;
+  outline: #bf569b;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #bf569b inset;
+}
+
+#color-picker-orange:focus {
+  background-color: #f1b342;
+  color: #f1b342;
+  border: none;
+  outline: #bf569b;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #f18700 inset;
+}
+
+#color-picker-pink:focus {
+  background-color: #d36aaf;
+  color: #d36aaf;
+  border: none;
+  border-radius: 10px;
+  outline: #bf5637;
+  box-shadow: 5px 5px 5px 5px #bd0058 inset;
+}
+
+#hoodie {
+  padding: 20px;
+  border: solid 3px darkgray;
+  border-radius: 15px;
+  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+#hoodie-back {
+  margin-top: 5px;
+  padding: 5px 20px;
+  border: solid 3px darkgray;
+  border-radius: 15px;
+  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.1);
+}
+
+.Anim-typing {
+  font: 4rem "Aldrich", sans-serif;
+}
+
+.preload {
+  width: 100%;
+  height: 100%;
+  background: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.logo {
+  height: 70px;
+  padding-top: 25vh;
+  margin: 100px;
+  font-size: 50px;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.loader-frame {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  position: relative;
+}
+
+.loader1, .loader2 {
+  position: absolute;
+  border: 5px solid transparent;
+  border-radius: 50%;
+}
+
+.loader1 {
+  width: 70px;
+  height: 70px;
+  border-top: 5px solid #fbfbfb;
+  border-bottom: 5px solid #fbfbfb;
+  animation: clockwisespin 2s linear 3;
+}
+
+@keyframes clockwisespin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes anticlockwisespin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.ParallaxVideo {
+  height: 100%;
+  padding-bottom: 25%;
+  padding-top: 15%;
+}
+
+.ParallaxVideo video {
+  position: fixed;
+  top: 0;
+  z-index: -999;
+}
+
+.ParallaxVideo h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Weird line fix */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

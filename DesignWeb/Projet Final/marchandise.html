@@ -9,6 +9,8 @@
     <script src="js/jquery-3.4.1.min.js" defer></script>
     <script src="js/bootstrap.js" defer></script>
     <script src="https://kit.fontawesome.com/a46d75ba7a.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Fredoka+One|Indie+Flower|Josefin+Sans|Permanent+Marker|Press+Start+2P|Tomorrow|Ubuntu|Aladin|Aldrich|Bad+Script|Electrolize|Fugaz+One|Itim|Merienda+One|Racing+Sans+One|Saira|VT323|Yeon+Sung&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -24,7 +26,7 @@
                     <a class="nav-link" href="index.html">Acceuil<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="marchandise.html">Marchandise</a>
+                    <a class="nav-link active" href="marchandise.html">Collections</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vanni DNA</a>
@@ -42,10 +44,40 @@
     </nav>
 </header>
 
-
-<h1>Marchandise</h1>
-
-
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-4 offset-xl-1 pb-5">
+            <div class="row py-5"></div>
+            <img src="img/Hoodie_Orange.jpg" alt="" class="img-fluid" width="100%" id="hoodie">
+            <img src="img/Hoodie_Back.jpeg" alt="" class="img-fluid" width="25%" id="hoodie-back">
+        </div>
+        <div class="col-xl-5">
+            <div class="row py-5"></div>
+            <h2 class="font-racing">Kabuki style Hoodie</h2>
+            <h3 class="font-racing">55€</h3>
+            <hr>
+            <p class="font-VT23">Hoodie noir 100% coton <br><br>Sériegraphie<br>"Main character DNA, be the 1%"</p>
+            <hr>
+            <h4 class="font-racing">Taille</h4>
+            <form>
+                <div class="form-group">
+                    <select class="form-control font-VT23" id="selectTaille">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+            </form>
+            <div class="pt-xl-0 pt-4">
+                <button id="color-picker-purple" class="p-4 mb-2"></button>
+                <button id="color-picker-pink" class="p-4 my-2"></button>
+                <button id="color-picker-orange" class="p-4 my-2"></button>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

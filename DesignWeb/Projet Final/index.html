@@ -9,10 +9,48 @@
     <script src="js/jquery-3.4.1.min.js" defer></script>
     <script src="js/bootstrap.js" defer></script>
     <script src="https://kit.fontawesome.com/a46d75ba7a.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Fredoka+One|Indie+Flower|Josefin+Sans|Permanent+Marker|Press+Start+2P|Tomorrow|Ubuntu|Aladin|Aldrich|Bad+Script|Electrolize|Fugaz+One|Itim|Merienda+One|Racing+Sans+One|Saira|VT323|Yeon+Sung&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
+
+<div class = "preload" id = "preload">
+    <div class ="logo">
+        <h1 class="Anim-typing">Vanni
+            <span class="txt-rotate" data-period="2000" data-rotate='[ "DNA", "Store", "Cuisine", "en 2D", "Trop mignon" ]'></span>
+        </h1>
+    </div>
+    <div class = "loader-frame">
+        <div class = "loader1" id = "loader1"></div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    (function(){
+
+        var preload = document.getElementById("preload");
+        var loading = 0;
+        var id = setInterval(frame, 64);
+
+        function frame(){
+            if(loading == 90) {
+                clearInterval(id);
+                $('.preload').hide();
+            }
+            else {
+                loading = loading + 1;
+                if(loading == 70) {
+                    preload.style.animation = "fadeout 2s ease";
+                }
+            }
+        }
+    })();
+</script>
+
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark" id="#index-nav">
+    <nav class="navbar navbar-expand-lg navbar-light" id="#index-nav">
         <a class="navbar-brand py-0"><img src="img/LogoVanniNoir.png" alt="" class="img-fluid"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-2x fa-plus"></i>
@@ -42,6 +80,14 @@
     </nav>
 </header>
 
+<section class="container-fluid px-0 ParallaxVideo">
+    <!--  Parallax trouvé sur https://stackoverflow.com/questions/41667536/video-as-background-parallax-css   -->
+
+    <video autoplay muted loop>
+        <source src="img/Video/Voitures.mp4" type="video/mp4">
+    </video>
+    <h1>Les Voitures</h1>
+</section>
 
 <section>
     <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -67,6 +113,7 @@
         </a>
     </div>
 </section>
+
 
 </body>
 </html>
