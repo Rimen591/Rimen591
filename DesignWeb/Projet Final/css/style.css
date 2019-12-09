@@ -11,6 +11,11 @@
   a img {
     width: 4.5rem;
   }
+
+  .font-racing {
+    font-family: "Racing Sans One", cursive;
+    font-weight: lighter;
+  }
 }
 /* Tablette */
 @media screen and (min-width: 481px) and (max-width: 980px) {
@@ -69,6 +74,14 @@ h2 {
 
 a img {
   width: 4.5rem;
+}
+
+a {
+  color: #373232;
+}
+
+a:hover {
+  color: #ff3c32;
 }
 
 .navbar-toggler {
