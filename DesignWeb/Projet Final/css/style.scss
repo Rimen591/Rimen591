@@ -42,9 +42,9 @@ $font19: 'Racing Sans One', cursive;
   a img {
     width: 4.5rem;
   }
-  .font-racing {
-    font-family: $font19;
-    font-weight: lighter;
+  .font-racing2 {
+    font: 1rem $font19;
+
   }
 }
 
@@ -114,6 +114,9 @@ a:hover {
   border: none;
 }
 .font-racing {
+  font-family: $font19;
+}
+.font-racing2 {
   font-family: $font19;
 }
 .font-VT23 {

@@ -12,9 +12,8 @@
     width: 4.5rem;
   }
 
-  .font-racing {
-    font-family: "Racing Sans One", cursive;
-    font-weight: lighter;
+  .font-racing2 {
+    font: 1rem "Racing Sans One", cursive;
   }
 }
 /* Tablette */
@@ -89,6 +88,10 @@ a:hover {
 }
 
 .font-racing {
+  font-family: "Racing Sans One", cursive;
+}
+
+.font-racing2 {
   font-family: "Racing Sans One", cursive;
 }
 
