@@ -26,30 +26,6 @@
     </div>
 </div>
 
-
-
-<script type="text/javascript">
-    (function(){
-
-        var preload = document.getElementById("preload");
-        var loading = 0;
-        var id = setInterval(frame, 64);
-
-        function frame(){
-            if(loading == 90) {
-                clearInterval(id);
-                $('.preload').hide();
-            }
-            else {
-                loading = loading + 1;
-                if(loading == 70) {
-                    preload.style.animation = "fadeout 2s ease";
-                }
-            }
-        }
-    })();
-</script>
-
 <header>
     <nav class="navbar navbar-expand-lg navbar-light" id="#index-nav">
         <a class="navbar-brand py-0"><img src="img/LogoVanniNoir.png" alt="" class="img-fluid"></a>
@@ -100,13 +76,15 @@
             <div class="carousel-item active">
                 <img class="carousel-img" src="img/Collection_Halloween.jpeg" alt="placeholder">
                 <div class="carousel-caption d-none d-md-block">
+                    <h5 class="font-VT23">Boo !</h5>
                     <button type="button" class="btn btn-lg btn-danger font-Gameboy">Collection Halloween</button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="carousel-img" src="img/Collection_Chirac.jpeg" alt="placeholder">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-lg btn-danger font-Gameboy" data-toggle="popover" title="Coming soon" data-content="Le bruit et l'odeur c'est moi">Collection Chirac</button>
+                    <h5 class="font-VT23">Le bruit et l'odeur c'est moi</h5>
+                    <button type="button" class="btn btn-lg btn-danger font-Gameboy" disabled>Collection Chirac</button>
                 </div>
             </div>
         </div>
@@ -120,6 +98,29 @@
     </div>
 </section>
 
+
+<script type="text/javascript">
+    (function(){
+
+        var preload = document.getElementById("preload");
+        var loading = 0;
+        var id = setInterval(frame, 64);
+
+        function frame(){
+            if(loading === 90) {
+                clearInterval(id);
+                $('.preload').hide();
+            }
+            else {
+                loading = loading + 1;
+                if(loading === 70) {
+                    preload.style.animation = "fadeout 2s ease";
+                }
+            }
+        }
+    })();
+
+</script>
 
 </body>
 </html>
