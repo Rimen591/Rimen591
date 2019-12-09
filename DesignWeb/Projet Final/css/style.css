@@ -84,6 +84,11 @@ a img {
   font-size: 1.1rem;
 }
 
+.font-Gameboy {
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+}
+
 #color-picker-purple {
   background-color: #b483c5;
   color: #b483c5;
