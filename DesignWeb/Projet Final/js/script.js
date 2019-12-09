@@ -1,58 +1,64 @@
-let hoodie = [0,2]; let hover = "";
+let item = "hoodie";
+let itemState = [0,2];
 
-$('#color-picker-pink').click( function () {
-    hoodie[1] = 0;
-    if (hoodie[0] === 0){
-        $('#hoodie').attr("src","img/Hoodie_Pink.jpg");
-    }else {
-        $('#hoodie-back').attr("src","img/Hoodie_Pink.jpg");
-    }
+$('#hoodie-preview').click( function () {
+    item = "hoodie";
+    console.log(item)
+    switchImg();
 });
-$('#color-picker-purple').click( function () {
-    hoodie[1] = 1;
-    if (hoodie[0] === 0){
-        $('#hoodie').attr("src","img/Hoodie_Purple.jpg");
-    }else {
-        $('#hoodie-back').attr("src","img/Hoodie_Purple.jpg");
-    }
+$('#tee-half-alive-preview').click( function () {
+    item = "tee_half_alive";
+    console.log(item)
+    switchImg();
 });
-$('#color-picker-orange').click( function () {
-    hoodie[1] = 2;
-    if (hoodie[0] === 0){
-        $('#hoodie').attr("src","img/Hoodie_Orange.jpg");
-    }else {
-        $('#hoodie-back').attr("src","img/Hoodie_Orange.jpg");
-    }
+$('#tee-half-dead-preview').click( function () {
+    item = "tee_half_dead";
+    switchImg();
+});
+$('#tee-pandemonium-preview').click( function () {
+    item = "tee_Pandemonium";
+    switchImg();
 });
 
-$('#hoodie-back').click( function () {
-    if (hoodie[0] === 0){
-        hoodie[0] = 1;
-        $('#hoodie').attr("src","img/Hoodie_Back.jpeg");
-        if (hoodie[1] === 0){
-            $('#hoodie-back').attr("src","img/Hoodie_Pink.jpg");
-        }else if (hoodie[1] === 1){
-            $('#hoodie-back').attr("src","img/Hoodie_Purple.jpg");
-        }else if (hoodie[1] === 2){
-            $('#hoodie-back').attr("src","img/Hoodie_Orange.jpg");
+function switchImg() {
+    $('#' + item + '-color-1').click( function () {
+        itemState[1] = 0;
+        if (itemState[0] === 0){
+            $('#' + item).attr("src","img/" + item + (itemState[1] + 1) + ".jpeg");
+        }else {
+            $('#' + item + '-back').attr("src","img/" + item + (itemState[1] + 1) + ".jpeg");
         }
-    }else {
-        hoodie[0] = 0;
-        if (hoodie[1] === 0){
-            $('#hoodie').attr("src","img/Hoodie_Pink.jpg");
-        }else if (hoodie[1] === 1){
-            $('#hoodie').attr("src","img/Hoodie_Purple.jpg");
-        }else if (hoodie[1] === 2){
-            $('#hoodie').attr("src","img/Hoodie_Orange.jpg");
+    });
+    $('#' + item + '-color-2').click( function () {
+        itemState[1] = 1;
+        if (itemState[0] === 0){
+            $('#' + item).attr("src","img/" + item + (itemState[1] + 1) + ".jpeg");
+        }else {
+            $('#' + item + '-back').attr("src","img/" + item + (itemState[1] + 1) + ".jpeg");
         }
-        $('#hoodie-back').attr("src","img/Hoodie_Back.jpeg");
-    }
-});
+    });
+    $('#' + item + '-color-3').click( function () {
+        itemState[1] = 2;
+        if (itemState[0] === 0){
+            $('#' + item).attr("src","img/" + item + (itemState[1] + 1) + ".jpeg");
+        }else {
+            $('#' + item + '-back').attr("src","img/" + item + (itemState[1] + 1) + ".jpeg");
+        }
+    });
 
-
-
-
-
+    $('#' + item + '-back').click( function () {
+        console.log("click " + itemState[0])
+        if (itemState[0] === 0){
+            itemState[0] = 1;
+            $('#' + item).attr("src","img/" + item + "_Back.jpeg");
+            $('#' + item + '-back').attr("src","img/" + item + (itemState[1] + 1) + ".jpeg");
+        }else {
+            itemState[0] = 0;
+            $('#' + item).attr("src","img/" + item + (itemState[1] + 1) + ".jpeg");
+            $('#' + item + '-back').attr("src","img/" + item + "_Back.jpeg");
+        }
+    });
+}
 
 
 var TxtRotate = function(el, toRotate, period) {

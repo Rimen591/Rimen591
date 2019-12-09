@@ -44,42 +44,242 @@
 </header>
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-xl-4 offset-xl-1 pb-5">
-            <div class="row py-5"></div>
-            <img src="img/Hoodie_Orange.jpg" alt="" class="img-fluid" width="100%" id="hoodie">
-            <img src="img/Hoodie_Back.jpeg" alt="" class="img-fluid" width="25%" id="hoodie-back">
-        </div>
-        <div class="col-xl-5">
-            <div class="row py-xl-5"></div>
+    <div class="row p-5">
+        <div class="preview-box col-xl-3">
+            <img src="img/Hoodie3.jpeg" alt="" class="img-fluid" width="100%" id="hoodie-preview" data-toggle="modal" data-target="#exampleModalCenter0">
+            <hr>
             <h2 class="font-racing">Kabuki style Hoodie</h2>
             <h3 class="font-racing">55€</h3>
+        </div>
+        <div class="preview-box col-xl-3">
+            <img src="img/tee_half_alive3.jpeg" alt="" class="img-fluid" width="100%" id="tee-half-alive-preview" data-toggle="modal" data-target="#exampleModalCenter1">
             <hr>
-            <p class="font-VT23">Hoodie noir 100% coton <br><br>Sériegraphie<br>"Main character DNA, be the 1%"</p>
+            <h2 class="font-racing">Tee shirt Half Alive</h2>
+            <h3 class="font-racing">27.99€</h3>
+        </div>
+        <div class="preview-box col-xl-3">
+            <img src="img/tee_half_dead3.jpeg" alt="" class="img-fluid" width="100%" id="tee-half-dead-preview" data-toggle="modal" data-target="#exampleModalCenter2">
             <hr>
-            <h4 class="font-racing">Taille</h4>
-            <form>
-                <div class="form-group">
-                    <select class="form-control font-VT23" id="selectTaille">
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                        <option>XXL</option>
-                    </select>
-                </div>
-            </form>
-            <div class="pt-xl-0 pt-4">
-                <button id="color-picker-purple" class="p-4 mb-2"></button>
-                <button id="color-picker-pink" class="p-4 my-2"></button>
-                <button id="color-picker-orange" class="p-4 my-2"></button>
-            </div>
-            <span class="pt-3 pl-1 d-inline-block" data-toggle="popover" data-content="Cette fontionnalitée n'est pas disponible pour le moment">
-                <button type="button" class="btn btn-lg btn-dark" style="pointer-events: none;" disabled>Commander</button>
-            </span>
+            <h2 class="font-racing">Tee shirt Half Dead</h2>
+            <h3 class="font-racing">27.99€</h3>
+        </div>
+        <div class="preview-box col-xl-3">
+            <img src="img/tee_Pandemonium3.jpeg" alt="" class="img-fluid" width="100%" id="tee-pandemonium-preview" data-toggle="modal" data-target="#exampleModalCenter3">
+            <hr>
+            <h2 class="font-racing">Tee Pandemonium</h2>
+            <h3 class="font-racing">27.99€</h3>
         </div>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Modal hoodie -->
+<div class="modal fade" id="exampleModalCenter0" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-5 pt-0 pl-xl-5 pb-5">
+                            <div class="row "></div>
+                            <img src="img/Hoodie3.jpeg" alt="" class="img-fluid" width="100%" id="hoodie">
+                            <img src="img/Hoodie_Back.jpeg" alt="" class="img-fluid" width="25%" id="hoodie-back">
+                        </div>
+                        <div class="col-xl-7 pr-xl-5">
+                            <div class="row"></div>
+                            <h2 class="font-racing">Kabuki style Hoodie</h2>
+                            <h3 class="font-racing">55€</h3>
+                            <hr>
+                            <p class="font-VT23">Hoodie noir 100% coton <br><br>Sériegraphie<br>"Main character DNA, be the 1%"</p>
+                            <hr>
+                            <h4 class="font-racing">Taille</h4>
+                            <form>
+                                <div class="form-group">
+                                    <select class="form-control font-VT23">
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                        <option>XL</option>
+                                        <option>XXL</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <div class="pt-xl-0 pt-4">
+                                <button id="hoodie-color-1" class="p-4 mb-2"></button>
+                                <button id="hoodie-color-2" class="p-4 my-2"></button>
+                                <button id="hoodie-color-3" class="p-4 my-2"></button>
+                            </div>
+                            <span class="pt-3 pb-5 pl-1 d-inline-block" data-toggle="popover" data-content="Cette fontionnalitée n'est pas disponible pour le moment">
+                                 <button type="button" class="btn btn-lg btn-dark" style="pointer-events: none;" disabled>Commander</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal tee_half_alive -->
+<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-5 pt-0 pl-xl-5 pb-5">
+                            <div class="row "></div>
+                            <img src="img/tee_half_alive3.jpeg" alt="" class="img-fluid" width="100%" id="tee_half_alive">
+                            <img src="img/tee_half_alive_Back.jpeg" alt="" class="img-fluid" width="25%" id="tee_half_alive-back">
+                        </div>
+                        <div class="col-xl-7 pr-xl-5">
+                            <div class="row"></div>
+                            <h2 class="font-racing">Half Alive Tee-Shirt</h2>
+                            <h3 class="font-racing">27.99€</h3>
+                            <hr>
+                            <p class="font-VT23">Tee-Shirt Half Alive blanc 100% coton <br><br>Sériegraphie<br>"Half Alive"</p>
+                            <hr>
+                            <h4 class="font-racing">Taille</h4>
+                            <form>
+                                <div class="form-group">
+                                    <select class="form-control font-VT23">
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                        <option>XL</option>
+                                        <option>XXL</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <span class="pt-3 pb-5 pl-1 d-inline-block" data-toggle="popover" data-content="Cette fontionnalitée n'est pas disponible pour le moment">
+                                 <button type="button" class="btn btn-lg btn-dark" style="pointer-events: none;" disabled>Commander</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal tee_half_dead -->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-5 pt-0 pl-xl-5 pb-5">
+                            <div class="row "></div>
+                            <img src="img/tee_half_dead3.jpeg" alt="" class="img-fluid" width="100%" id="tee_half_dead">
+                            <img src="img/tee_half_dead_Back.jpeg" alt="" class="img-fluid" width="25%" id="tee_half_dead-back">
+                        </div>
+                        <div class="col-xl-7 pr-xl-5">
+                            <div class="row"></div>
+                            <h2 class="font-racing">Half Dead Tee-Shirt</h2>
+                            <h3 class="font-racing">27.99€</h3>
+                            <hr>
+                            <p class="font-VT23">Tee-Shirt Half Dead blanc 100% coton <br><br>Sériegraphie<br>"Half Dead"</p>
+                            <hr>
+                            <h4 class="font-racing">Taille</h4>
+                            <form>
+                                <div class="form-group">
+                                    <select class="form-control font-VT23">
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                        <option>XL</option>
+                                        <option>XXL</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <span class="pt-3 pb-5 pl-1 d-inline-block" data-toggle="popover" data-content="Cette fontionnalitée n'est pas disponible pour le moment">
+                                 <button type="button" class="btn btn-lg btn-dark" style="pointer-events: none;" disabled>Commander</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal tee_Pandemonium -->
+<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-5 pt-0 pl-xl-5 pb-5">
+                            <div class="row "></div>
+                            <img src="img/tee_Pandemonium3.jpeg" alt="" class="img-fluid" width="100%" id="tee_Pandemonium">
+                            <img src="img/tee_Pandemonium_Back.jpeg" alt="" class="img-fluid" width="25%" id="tee_Pandemonium-back">
+                        </div>
+                        <div class="col-xl-7 pr-xl-5">
+                            <div class="row"></div>
+                            <h2 class="font-racing">Half Alive Tee-Shirt</h2>
+                            <h3 class="font-racing">27.99€</h3>
+                            <hr>
+                            <p class="font-VT23">Tee-Shirt Half Alive blanc 100% coton <br><br>Sériegraphie<br>"Half Alive"</p>
+                            <hr>
+                            <h4 class="font-racing">Taille</h4>
+                            <form>
+                                <div class="form-group">
+                                    <select class="form-control font-VT23">
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                        <option>XL</option>
+                                        <option>XXL</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <span class="pt-3 pb-5 pl-1 d-inline-block" data-toggle="popover" data-content="Cette fontionnalitée n'est pas disponible pour le moment">
+                                 <button type="button" class="btn btn-lg btn-dark" style="pointer-events: none;" disabled>Commander</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script src="js/jquery-3.4.1.min.js" ></script>
 <script src="js/bootstrap.js" ></script>

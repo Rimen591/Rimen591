@@ -115,26 +115,26 @@ a img {
   font-size: 1.5rem;
 }
 
-#color-picker-purple {
+#hoodie-color-2 {
   background-color: rgb(180,131,197);
   color: rgb(180,131,197);
   border: none;
   border-radius: 10px;
 }
-#color-picker-orange {
+#hoodie-color-3 {
   background-color: rgb(241,179,66);
   color: rgb(241,179,66);
   border: none;
   border-radius: 10px;
 }
-#color-picker-pink {
+#hoodie-color-1 {
   background-color: rgb(211,106,175);
   color: rgb(211,106,175);
   border: none;
   border-radius: 10px;
 }
 
-#color-picker-purple:focus {
+#hoodie-color-2:focus {
   background-color: rgb(180,131,197);
   color: rgb(180,131,197);
   border: none;
@@ -142,7 +142,7 @@ a img {
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px rgb(191,86,155) inset;
 }
-#color-picker-orange:focus {
+#hoodie-color-3:focus {
   background-color: rgb(241,179,66);
   color: rgb(241,179,66);
   border: none;
@@ -150,7 +150,7 @@ a img {
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px rgb(241, 135, 0) inset;
 }
-#color-picker-pink:focus {
+#hoodie-color-1:focus {
   background-color: rgb(211,106,175);
   color: rgb(211,106,175);
   border: none;
@@ -159,21 +159,12 @@ a img {
   box-shadow: 5px 5px 5px 5px rgb(189, 0, 88) inset;
 }
 
-#hoodie {
+.preview-box {
   padding: 20px;
   border: solid 3px darkgray;
   border-radius: 15px;
   box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.2);
 }
-#hoodie-back {
-  margin-top: 5px;
-  padding: 5px 20px;
-  border: solid 3px darkgray;
-  border-radius: 15px;
-  box-shadow: 1px 1px 30px 1px rgba(0,0,0,0.1);
-}
-
-
 
 
 
@@ -267,4 +258,8 @@ html,body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+}
+
+.modal-header {
+  border: none;
 }

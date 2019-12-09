@@ -89,28 +89,28 @@ a img {
   font-size: 1.5rem;
 }
 
-#color-picker-purple {
+#hoodie-color-2 {
   background-color: #b483c5;
   color: #b483c5;
   border: none;
   border-radius: 10px;
 }
 
-#color-picker-orange {
+#hoodie-color-3 {
   background-color: #f1b342;
   color: #f1b342;
   border: none;
   border-radius: 10px;
 }
 
-#color-picker-pink {
+#hoodie-color-1 {
   background-color: #d36aaf;
   color: #d36aaf;
   border: none;
   border-radius: 10px;
 }
 
-#color-picker-purple:focus {
+#hoodie-color-2:focus {
   background-color: #b483c5;
   color: #b483c5;
   border: none;
@@ -119,7 +119,7 @@ a img {
   box-shadow: 5px 5px 5px 5px #bf569b inset;
 }
 
-#color-picker-orange:focus {
+#hoodie-color-3:focus {
   background-color: #f1b342;
   color: #f1b342;
   border: none;
@@ -128,7 +128,7 @@ a img {
   box-shadow: 5px 5px 5px 5px #f18700 inset;
 }
 
-#color-picker-pink:focus {
+#hoodie-color-1:focus {
   background-color: #d36aaf;
   color: #d36aaf;
   border: none;
@@ -137,19 +137,11 @@ a img {
   box-shadow: 5px 5px 5px 5px #bd0058 inset;
 }
 
-#hoodie {
+.preview-box {
   padding: 20px;
   border: solid 3px darkgray;
   border-radius: 15px;
   box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
-}
-
-#hoodie-back {
-  margin-top: 5px;
-  padding: 5px 20px;
-  border: solid 3px darkgray;
-  border-radius: 15px;
-  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.1);
 }
 
 .Anim-typing {
@@ -249,6 +241,10 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+}
+
+.modal-header {
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
