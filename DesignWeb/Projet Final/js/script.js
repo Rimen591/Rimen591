@@ -1,24 +1,34 @@
 let item = "hoodie";
 let itemState = [0,2];
+let functCallState = [0,0,0];
 
 $('#hoodie-preview').click( function () {
-    item = "Hoodie";
+    item = "hoodie";
     console.log(item)
-    switchImg();
+    itemState = [0,2];
+    if (functCallState[0] === 0){
+        switchImg();
+        functCallState[0] = 1;
+    }
 });
 $('#tee-half-alive-preview').click( function () {
     item = "tee_half_alive";
     console.log(item)
-    switchImg();
+    itemState = [0,2];
+    if (functCallState[1] === 0){
+        switchImg();
+        functCallState[1] = 1;
+    }
 });
 $('#tee-half-dead-preview').click( function () {
     item = "tee_half_dead";
-    switchImg();
+    itemState = [0,2];
+    if (functCallState[2] === 0){
+        switchImg();
+        functCallState[2] = 1;
+    }
 });
-$('#tee-pandemonium-preview').click( function () {
-    item = "tee_Pandemonium";
-    switchImg();
-});
+
 
 function switchImg() {
     $('#' + item + '-color-1').click( function () {
