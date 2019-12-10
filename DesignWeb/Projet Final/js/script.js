@@ -4,7 +4,6 @@ let functCallState = [0,0,0];
 
 $('#hoodie-preview').click( function () {
     item = "hoodie";
-    console.log(item)
     itemState = [0,2];
     if (functCallState[0] === 0){
         switchImg();
@@ -13,7 +12,6 @@ $('#hoodie-preview').click( function () {
 });
 $('#tee-half-alive-preview').click( function () {
     item = "tee_half_alive";
-    console.log(item)
     itemState = [0,2];
     if (functCallState[1] === 0){
         switchImg();
@@ -57,7 +55,6 @@ function switchImg() {
     });
 
     $('#' + item + '-back').click( function () {
-        console.log("click " + itemState[0])
         if (itemState[0] === 0){
             itemState[0] = 1;
             $('#' + item).attr("src","img/" + item + "_Back.jpeg");

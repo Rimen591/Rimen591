@@ -27,7 +27,8 @@
   }
 }
 #\#commande-nav {
-  background-color: #fbfbfb;
+  background-color: #373232;
+  z-index: 2;
 }
 
 #\#artistes-nav {
@@ -43,7 +44,7 @@
 }
 
 #\#informations-nav {
-  background-color: #373232;
+  background-color: #fbfbfb;
 }
 
 .dropdown-menu {
@@ -61,6 +62,7 @@
 
 nav {
   min-width: 100%;
+  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.5);
 }
 
 .nav-item {
@@ -259,6 +261,13 @@ html, body {
 
 .modal-header {
   border: none;
+}
+
+.command-form {
+  background-color: #373232;
+  color: #fbfbfb;
+  border-radius: 25px;
+  box-shadow: 1px 1px 40px 1px rgba(0, 0, 0, 0.5);
 }
 
 /*# sourceMappingURL=style.css.map */

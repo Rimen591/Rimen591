@@ -61,9 +61,9 @@ $font19: 'Racing Sans One', cursive;
 
 
 
-
 #\#commande-nav {
-  background-color: $color5;
+  background-color: $color1;
+  z-index: 2;
 }
 #\#artistes-nav {
   background-color: $color2;
@@ -75,7 +75,7 @@ $font19: 'Racing Sans One', cursive;
   background-color: $color5;
 }
 #\#informations-nav {
-  background-color: $color1;
+  background-color: $color5;
 }
 .dropdown-menu {
   background-color: $color1;
@@ -90,6 +90,7 @@ $font19: 'Racing Sans One', cursive;
 }
 nav {
   min-width: 100%;
+  box-shadow: 1px 1px 30px 1px rgba(0,0,0,0.5);
 }
 
 .nav-item{
@@ -273,4 +274,11 @@ html,body {
 
 .modal-header {
   border: none;
+}
+
+.command-form {
+  background-color: $color1;
+  color: $color5;
+  border-radius: 25px;
+  box-shadow: 1px 1px 40px 1px rgba(0,0,0,0.5);
 }
