@@ -282,3 +282,25 @@ html,body {
   border-radius: 25px;
   box-shadow: 1px 1px 40px 1px rgba(0,0,0,0.5);
 }
+
+#cercle {
+  margin-top: 50%;
+  border-radius: 150px;
+  background-color: $color1;
+
+}
+
+#logo-cercle {
+  position: relative;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.font-size-2rem {
+  font-size: 1.65rem;
+}
+
+#nezuko {
+  transform: scaleX(-1);
+  margin-top: 20%;
+}
