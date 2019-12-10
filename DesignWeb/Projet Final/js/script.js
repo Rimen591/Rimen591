@@ -57,12 +57,12 @@ function switchImg() {
     $('#' + item + '-back').click( function () {
         if (itemState[0] === 0){
             itemState[0] = 1;
-            $('#' + item).attr("src","img/" + item + "_Back.jpeg");
+            $('#' + item).attr("src","img/" + item + "_back.jpeg");
             $('#' + item + '-back').attr("src","img/" + item + (itemState[1] + 1) + ".jpeg");
         }else {
             itemState[0] = 0;
             $('#' + item).attr("src","img/" + item + (itemState[1] + 1) + ".jpeg");
-            $('#' + item + '-back').attr("src","img/" + item + "_Back.jpeg");
+            $('#' + item + '-back').attr("src","img/" + item + "_back.jpeg");
         }
     });
 }
