@@ -2,7 +2,7 @@ let item = "hoodie";
 let itemState = [0,2];
 
 $('#hoodie-preview').click( function () {
-    item = "hoodie";
+    item = "Hoodie";
     console.log(item)
     switchImg();
 });
