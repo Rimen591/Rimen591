@@ -272,7 +272,7 @@ html, body {
 
 #cercle {
   margin-top: 50%;
-  border-radius: 150px;
+  border-radius: 1500px;
   background-color: #373232;
 }
 
@@ -289,6 +289,18 @@ html, body {
 #nezuko {
   transform: scaleX(-1);
   margin-top: 20%;
+}
+
+iframe {
+  background-color: #373232;
+  color: #fbfbfb;
+  border-radius: 25px;
+  box-shadow: 1px 1px 40px 1px rgba(0, 0, 0, 0.5);
+}
+
+#yt {
+  width: 100%;
+  height: 85%;
 }
 
 /*# sourceMappingURL=style.css.map */
